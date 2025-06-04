@@ -1,0 +1,18 @@
+[package]
+name = "go-fitch"
+version = "0.1.0"
+
+description = "Typeset Fitch-style proofs."
+categories = ["components", "visualization"]
+disciplines = ["mathematics", "philosophy"]
+keywords = [
+  "proof", "proof trees", "prooftrees", "proof tree", "prooftree",
+  "logic", "symbolic logic", "inference", "deduction", "natural deduction",
+  "fitch notation", "fitch diagram", "fitch style", "Suppes-Lemmon format"
+]
+
+authors = ["Marseille Bouchard Demko <https://github.com/marseillebd>"]
+license = "BSD-3-Clause"
+repository = "https://github.com/marseillebd/typst-fitch"
+
+entrypoint = "lib.typ"
