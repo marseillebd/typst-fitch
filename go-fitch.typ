@@ -23,7 +23,7 @@
       )
     }
   } else if (type(it) == dictionary) {
-    assert(not(mustBeLeaf), message: "assumptions canot nest, they must be leaf nodes")
+    assert(not(mustBeLeaf), message: "assumptions cannot nest, they must be leaf nodes")
     assert("beside" in it, message: "assumptions must have a 'beside' field")
     if it.beside != none {
       assert(type(it.beside) == content, message: "'beside' field must be content or none")
